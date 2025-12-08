@@ -17,7 +17,7 @@
      crossorigin="anonymous"></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>studybank c09</title>
+  <title>studybank c10</title>
   <style>
     /* Basic body setup */
     body {
@@ -53,18 +53,18 @@
     }
 
     /* Header */
-  header {
+    header {
       background: #7404be;
       color: white;
-      padding: 20px 0;
+      padding: 15px;
       text-align: center;
-      font-size: 24px;
-       position: fixed;    /* ताकि यह ऊपर चिपका रहे */
-  top: 0;             /* ऊपर से zero gap */
-  left: 140px;
-  width: 100%;
-  z-index: 1000;
-   }
+      font-size: 20px;
+      position: fixed;
+      top: 0;
+      left: 140px;
+      right: 0;
+      z-index: 900;
+    }
 
     /* Main content */
     .main-content {
@@ -117,6 +117,12 @@
         display: inline-block;
         padding: 10px;
         font-size: 16px;
+      }
+
+      header {
+        position: relative;
+        left: 0;
+        width: 100%;
       }
 
       .main-content {
